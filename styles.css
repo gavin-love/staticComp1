@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+}
+
+h1, p {
+  margin-left: 30px;
+  color: white;
+}
+
+h1 {
+  margin-top: 60px;
+}
+
+.tours, .travel {
+  border: 2px solid white;
+  color: white;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  background-color: #7799bb;
+}
+
+.tours {
+  background-image: url(images/tours.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.travel {
+  background-image: url(images/reservations.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.resume-contact {
+  margin-left: 30px;
+}
+
+.page-container {
+  display: flex;
+   height: 100%;
+}
+.main-container {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33.33%;
+  height: 33.33%;
+}
+
+.header {
+  width: 66.66%;
+  height: 33.33;
+  background-color: #7799bb;
+}
+
+.header:hover {
+  background-image: url(images/biking.gif);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: 565px;
+}
+
+.header:hover h1 {
+  color: green;
+}
+
+.header:hover p {
+  color: green;
+}
+
+.header:hover input {
+  background-color: rgba(0,0,0,0);
+}
+
+.img-container {
+  width: 40%;
+  background: url(images/done.jpg);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box-1 {
+  background-color: #88aa33;
+}
+
+.box-1:hover {
+  background-image: url(images/skiing2.gif);
+  background-repeat: no-repeat;
+}
+
+
+
+.box-2 {
+  background-color: #0088ee;
+}
+
+.box-2:hover {
+  background-image: url(images/kayak.gif);
+  background-repeat: no-repeat;
+}
+
+.box-3 {
+  background-color: #bbcc55;
+}
+
+.box-3:hover {
+  background-image: url(images/camping2.gif);
+  background-repeat: no-repeat;
+}
+
+.box-4 {
+  background-color: #77bbff;
+}
+
+.box-4:hover {
+  background-image: url(images/jeep.gif);
+  background-repeat: no-repeat;
+}
+
+.box-5 {
+  background-color: #227733;
+}
+
+.box-5:hover {
+  background-image: url(images/snowb3.gif);
+  background-repeat: no-repeat;
+}
+
+.box-6 {
+  background-color: #4499dd;
+}
+
+.box-6:hover {
+  background-image: url(images/fishing2.gif);
+  background-repeat: no-repeat;
+}
+
+.box-7 {
+  background-color: #557711;
+}
+
+.box-7:hover {
+  background-image: url(images/climbing2.gif);
+  background-repeat: no-repeat;
+}
+
+ .box:hover {
+    background-position: center;
+  }
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    margin-top: 30px;
+  }
+
+  .header {
+    width: 100%;
+    height: 25%;
+  }
+  .box {
+    width: 33.33%;
+    height: 25%;
+  }
+
+  .box:hover {
+    background-position: center;
+  }
+
+  .box-3 {
+    background-color: #557711; 
+  }
+
+  .box-7 {
+    margin-left: 33.33%;
+    background-color: #bbcc55;
+  }
+
+  .main-container {
+    width: 100%;
+    background-color: #7799bb;
+  }
+
+  .page-continer {
+    flex-wrap: wrap;
+  }
+
+  .img-container {
+    min-width: 350px;
+    background-position: : center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .img-container {
+    min-width: 250px;
+    background-position: center;
+  }
+
+   .box:hover {
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  aside {
+    display: none;
+  }
+
+  .main-container {
+    background-image: url(images/done.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+   .box:hover {
+    background-position: center;
+  }
+}
