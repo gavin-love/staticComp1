@@ -47,6 +47,7 @@ h1 {
   display: flex;
   width: 60%;
   flex-wrap: wrap;
+  margin: 0;
 }
 
 .box {
@@ -105,7 +106,6 @@ h1 {
 
 .box-2:hover {
   background-image: url(images/kayak.gif);
-  background-repeat: no-repeat;
 }
 
 .box-3 {
@@ -114,7 +114,6 @@ h1 {
 
 .box-3:hover {
   background-image: url(images/camping2.gif);
-  background-repeat: no-repeat;
 }
 
 .box-4 {
@@ -123,7 +122,6 @@ h1 {
 
 .box-4:hover {
   background-image: url(images/jeep.gif);
-  background-repeat: no-repeat;
 }
 
 .box-5 {
@@ -132,7 +130,6 @@ h1 {
 
 .box-5:hover {
   background-image: url(images/snowb3.gif);
-  background-repeat: no-repeat;
 }
 
 .box-6 {
@@ -141,7 +138,6 @@ h1 {
 
 .box-6:hover {
   background-image: url(images/fishing2.gif);
-  background-repeat: no-repeat;
 }
 
 .box-7 {
@@ -150,7 +146,6 @@ h1 {
 
 .box-7:hover {
   background-image: url(images/climbing2.gif);
-  background-repeat: no-repeat;
 }
 
  .box:hover {
