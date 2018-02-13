@@ -27,13 +27,11 @@ h1 {
 .tours {
   background-image: url(images/tours.png);
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
   background-position: left;
 }
 
 .travel {
   background-image: url(images/reservations.png);
-  background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -68,7 +66,6 @@ h1 {
 .header:hover {
   background-image: url(images/biking.gif);
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
   background-size: 565px;
 }
 
@@ -87,7 +84,6 @@ h1 {
 .img-container {
   width: 40%;
   background: url(images/done.jpg);
-  background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: center;
 }
