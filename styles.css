@@ -212,8 +212,8 @@ h1 {
 
   .main-container {
     background-image: url(images/done.jpg);
-    background-repeat: no-repeat;
     background-position: top;
+
   }
 
    .box:hover {
